@@ -26,5 +26,10 @@ namespace PlantItApp.Controllers
             return res;
 
         }
+        [HttpGet("idget")]
+        public int getid()
+        {
+            return 1;
+        }
     }
 }
