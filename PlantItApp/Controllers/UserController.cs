@@ -38,5 +38,12 @@ namespace PlantItApp.Controllers
         {
             return 1;
         }
+
+
+        [HttpGet("getid2")]
+        public int getid2()
+        {
+            return 1;
+        }
     }
 }
