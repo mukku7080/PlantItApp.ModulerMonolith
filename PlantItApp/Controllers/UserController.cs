@@ -33,5 +33,10 @@ namespace PlantItApp.Controllers
             var res = _mediator.Send(new LoginCommand(req));
             return res;
         }
+        [HttpGet("get")]
+        public int getid()
+        {
+            return 1;
+        }
     }
 }
